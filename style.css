@@ -1,11 +1,12 @@
-/* :root {
-    --primary-color: # ... ;
-    --secundary-color: # ... ;
-    --header-size: ... rem;
-    --sm: ... rem;
-    --md: ... rem;
-    --lg: ... rem;
-} */
+:root {
+    --pri-color: #C7C7C7;;
+    --seg-color: #F7F7F7;
+    --ter-color:#ACD9B2;
+    /* --header-size: ... rem; */
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,11 +15,21 @@
 /* html {
   font-size: 62.5%;
 } */
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 0;
 }
-header img {
-  max-height: 70vh;
-  object-fit: cover;
+#foto-personal {
+  border-radius: 50%;
+  border: 3px solid black;
+}
+#conteiner-expLaboral,
+#conteiner-educacion,
+#conteiner-skills {
+  border-radius: 10px;
+  border: 1px solid #C7C7C7;
 }
